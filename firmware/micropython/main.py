@@ -1,8 +1,8 @@
 import time, json
 from machine import Pin
-import config
-from net_mqtt import wifi_connect, mqtt_connect
-from controller import MotorHBridge, LineSensor, clamp
+import firmware.micropython.config as config
+from firmware.micropython.net_mqtt import wifi_connect, mqtt_connect
+from firmware.micropython.controller import MotorHBridge, LineSensor, clamp
 
 # ---------- Helpers ----------
 def now_iso():
