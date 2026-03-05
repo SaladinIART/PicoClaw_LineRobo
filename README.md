@@ -18,6 +18,8 @@ Instead of focusing only on making a robot move, this project focuses on buildin
 
 Even though the robot hardware is simple, the system design reflects how modern robotic platforms are structured.
 
+If you are new to robotics or some terms are unfamiliar, see the **Glossary** section at the end of this document.
+
 ---
 
 # What This Project Does
